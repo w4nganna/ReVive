@@ -1,0 +1,116 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "MOBILE"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#ECECEC",
+  "evaluationVersion": 2,
+  "icon": "bird",
+  "pages": [
+    {
+      "id": "Start",
+      "isDefault": true
+    },
+    {
+      "id": "UserSignIn",
+      "isDefault": false
+    },
+    {
+      "id": "UserCreateAccount",
+      "isDefault": false
+    },
+    {
+      "id": "Discover",
+      "isDefault": false
+    },
+    {
+      "id": "Distance",
+      "isDefault": false
+    },
+    {
+      "id": "Browse",
+      "isDefault": false
+    },
+    {
+      "id": "Favourites",
+      "isDefault": false
+    },
+    {
+      "id": "Profile",
+      "isDefault": false
+    },
+    {
+      "id": "ManageAccount",
+      "isDefault": false
+    },
+    {
+      "id": "StoreSignIn",
+      "isDefault": false
+    },
+    {
+      "id": "MyStore",
+      "isDefault": false
+    },
+    {
+      "id": "MoreStore",
+      "isDefault": false
+    },
+    {
+      "id": "AddProduct",
+      "isDefault": false
+    },
+    {
+      "id": "ViewPosting",
+      "isDefault": false
+    },
+    {
+      "id": "Payment",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

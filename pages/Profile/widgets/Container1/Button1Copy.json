@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 54,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6irmk9lnr5",
+  "leftColumn": 32,
+  "minWidth": 120,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 11,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.53125,
+  "parentId": "rnshy4gyqo",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "Money Saved",
+  "topRow": 31,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "662j0va38t",
+  "widgetName": "Button1Copy"
+}

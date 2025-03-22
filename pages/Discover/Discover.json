@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "67de35c33b9027211c38a7e8_7ca72df1-1e46-4b57-9fa9-78d3384a48c8",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 690,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 62,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 92,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Discover",
+    "slug": "discover"
+  }
+}

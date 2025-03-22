@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 32,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6nmfr3lent",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('UserCreateAccount', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
+  "parentColumnSpace": 6.53125,
+  "parentId": "vliz56n09l",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 30,
+  "text": "Don't have an account?",
+  "topRow": 28,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5i4l78xrkr",
+  "widgetName": "Button3"
+}

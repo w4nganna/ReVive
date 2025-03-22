@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 32,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6irmk9lnr5",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 32,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 28,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 6.53125,
+  "parentId": "8ob3ywjlr0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 30,
+  "text": "Want to join? Contact us",
+  "topRow": 28,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8dnff7dm1l",
+  "widgetName": "Button3"
+}

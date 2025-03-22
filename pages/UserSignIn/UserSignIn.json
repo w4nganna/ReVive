@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "67de35c33b9027211c38a7e8_20aeb84b-be46-4353-ad0c-170b6fceb858",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 380,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 62,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 92,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "UserSignIn",
+    "slug": "usersignin"
+  }
+}

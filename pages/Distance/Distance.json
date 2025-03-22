@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "67de35c33b9027211c38a7e8_e05e63b2-a46a-4135-9852-37fffea4db18",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 690,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 62,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 92,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Distance",
+    "slug": "distance"
+  }
+}

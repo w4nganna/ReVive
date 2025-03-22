@@ -1,0 +1,125 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "additionalStaticProps": [
+    "level",
+    "levelData",
+    "prefixMetaWidgetId",
+    "metaWidgetId"
+  ],
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 51,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 510,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dropDisabled": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "r4l8bsymks",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 400,
+      "minWidth": 450,
+      "mobileBottomRow": 400,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 146.80078125,
+      "mobileTopRow": 0,
+      "needsErrorInfo": false,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "crfwmdx7a2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 146.80078125,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "kaujravqxf",
+      "widgetName": "Canvas4Copy1"
+    }
+  ],
+  "currentItemsView": "{{[]}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "currentItemsView"
+    },
+    {
+      "key": "selectedItemView"
+    },
+    {
+      "key": "triggeredItemView"
+    },
+    {
+      "key": "primaryKeys"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "listData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "flexVerticalAlignment": "start",
+  "gridType": "vertical",
+  "hasMetaWidgets": true,
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "itemBackgroundColor": "#FFFFFF",
+  "itemSpacing": 8,
+  "key": "6m9m386bp2",
+  "leftColumn": 0,
+  "listData": "{{getConditioner.data}}",
+  "mainCanvasId": "kaujravqxf",
+  "mainContainerId": "fepruqqkbq",
+  "minWidth": 450,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "pageSize": 5,
+  "parentColumnSpace": 6.11669921875,
+  "parentId": "87zw3aylg9",
+  "parentRowSpace": 10,
+  "primaryKeys": "{{List1Copy1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+  "renderMode": "CANVAS",
+  "requiresFlatWidgetChildren": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "selectedItemView": "{{{}}}",
+  "templateHeight": 160,
+  "topRow": 0,
+  "triggeredItemView": "{{{}}}",
+  "type": "LIST_WIDGET_V2",
+  "widgetId": "crfwmdx7a2",
+  "widgetName": "List1Copy1"
+}

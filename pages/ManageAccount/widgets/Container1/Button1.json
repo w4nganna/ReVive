@@ -1,0 +1,47 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 34,
+  "boxShadow": "none",
+  "buttonColor": "#b91c1c",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2udx8vcf7l",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 30,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Start', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 6.42431640625,
+  "parentId": "c22x1neyyd",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Log Out",
+  "topRow": 30,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "j26079898s",
+  "widgetName": "Button1"
+}

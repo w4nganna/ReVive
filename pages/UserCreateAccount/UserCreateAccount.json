@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "67de35c33b9027211c38a7e8_3c0d6899-3c68-4211-95b1-f01d0a5da4b9",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 390.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 640.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 62.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 92.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "UserCreateAccount",
+    "slug": "usercreateaccount"
+  }
+}
