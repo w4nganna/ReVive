@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "$ 7.99\n\n$0.00",
+  "text": "${{appsmith.store.subtotal}}\n\n${{appsmith.store.tax}}",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
   "topRow": 0,

@@ -1,0 +1,8 @@
+{
+            "shopper" : {{appsmith.store.skinId}},
+            "product": {{MultiSelect1.selectedOptionValues}},
+						"quantity" : {{appsmith.store.skinId}},
+            "purchaseDate" : {{appsmith.store.budget}},
+            "moneySaved" : {{appsmith.store.loggedUser}},
+						"co2Saved": {{appsmith.store.concernIds}}
+        }

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "1.5rem",
-  "bottomRow": 48,
+  "bottomRow": 35,
   "boxShadow": "none",
   "defaultText": "1",
   "dynamicBindingPathList": [
@@ -12,9 +12,24 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "iconAlign": "left",
-  "inputType": "TEXT",
+  "inputType": "NUMBER",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
@@ -26,7 +41,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 0,
+  "leftColumn": 13,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -35,17 +50,20 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "originalBottomRow": 48,
-  "originalTopRow": 44,
+  "onSubmit": "",
+  "onTextChanged": "{{\n  storeValue('quantity', Number(Input1.text));\n  storeValue('subtotal', appsmith.store.quantity * appsmith.store.newPrice);\n  storeValue('tax', parseFloat((appsmith.store.subtotal * 0.13).toFixed(2)));\n  storeValue('total', parseFloat((appsmith.store.subtotal + parseFloat(appsmith.store.tax)).toFixed(2)));\n}}",
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
   "parentColumnSpace": 6.21875,
   "parentId": "uslq547vs6",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
+  "resetOnSubmit": false,
   "responsiveBehavior": "fill",
-  "rightColumn": 19,
+  "rightColumn": 23,
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 44,
+  "topRow": 31,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "2au0suvtxw",

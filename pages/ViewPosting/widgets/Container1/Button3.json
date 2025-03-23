@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 65,
+  "bottomRow": 41,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -9,6 +9,11 @@
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -21,16 +26,16 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6irmk9lnr5",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "minWidth": 120,
   "mobileBottomRow": 72,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 15,
   "mobileTopRow": 68,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Payment', {}, 'SAME_WINDOW');}}",
-  "originalBottomRow": 65,
-  "originalTopRow": 61,
+  "onClick": "{{navigateTo('Payment', {}, 'SAME_WINDOW').then(() => {\n  storeValue('newPrice', getProductById.data.newPrice);\n  storeValue('oldPrice', getProductById.data.oldPrice);\n  storeValue('tax', parseFloat((getProductById.data.newPrice*0.13).toFixed(2)));\n\tstoreValue('subtotal', appsmith.store.newPrice);\n\tstoreValue('total', appsmith.store.newPrice);\n})}}\n",
+  "originalBottomRow": 41,
+  "originalTopRow": 37,
   "parentColumnSpace": 6.53125,
   "parentId": "wi1d5orvco",
   "parentRowSpace": 10,
@@ -41,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "text": "Reserve",
-  "topRow": 61,
+  "topRow": 37,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "ip65rr544s",
