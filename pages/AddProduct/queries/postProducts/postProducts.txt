@@ -1,0 +1,11 @@
+{
+  "name": {{pName.text}},
+  "brand": {{pBrand.text}},
+  "originalPrice": {{ogPrice.text}},
+  "newPrice": {{discountPrice.text}},
+  "category": {{pCat.selectedOptionValue}},
+  "retailerId": {{appsmith.store.loggedRetailer}},
+  "imageURL": {{photo.text}},
+  "averageScore": 0,
+	"quantity": {{numProducts.text}}
+}

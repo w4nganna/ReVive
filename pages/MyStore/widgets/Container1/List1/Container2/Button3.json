@@ -1,53 +1,49 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 34,
+  "bottomRow": 10,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "TERTIARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
+      "key": "buttonColor"
+    },
+    {
       "key": "borderRadius"
     },
     {
-      "key": "buttonColor"
+      "key": "text"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "iconAlign": "right",
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "r993t4yqdc",
-  "leftColumn": 1,
+  "key": "5ghsgiq2mv",
+  "leftColumn": 17,
   "minWidth": 120,
-  "mobileBottomRow": 19,
-  "mobileLeftColumn": 34,
-  "mobileRightColumn": 50,
-  "mobileTopRow": 15,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal1.name);}}",
-  "originalBottomRow": 36,
-  "originalTopRow": 32,
-  "parentColumnSpace": 6.42431640625,
-  "parentId": "8du4xcgksa",
+  "parentColumnSpace": 5.98681640625,
+  "parentId": "l1o9kstbfq",
   "parentRowSpace": 10,
-  "placement": "START",
+  "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "How did we get this number?",
-  "topRow": 30,
+  "text": "{{currentItem.name}}",
+  "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ff7jq8slbk",
-  "widgetName": "Button1"
+  "widgetId": "7ks9g0pslp",
+  "widgetName": "Button3"
 }

@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 46,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -23,7 +23,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "u4yziibzte",
-  "label": "Number of Products",
+  "label": "Img URL",
   "labelAlignment": "left",
   "labelPosition": "Left",
   "labelStyle": "",
@@ -48,9 +48,9 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "showStepArrows": false,
-  "topRow": 34,
+  "topRow": 42,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "j29dijzcij",
-  "widgetName": "Input1"
+  "widgetId": "rcbo2wwst3",
+  "widgetName": "photo"
 }
