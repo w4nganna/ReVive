@@ -1,27 +1,37 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 48,
+  "bottomRow": 35,
   "boxShadow": "none",
   "buttonColor": "#231f20",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "6irmk9lnr5",
-  "leftColumn": 20,
+  "leftColumn": 26,
   "minWidth": 120,
   "mobileBottomRow": 48,
   "mobileLeftColumn": 10,
   "mobileRightColumn": 26,
   "mobileTopRow": 44,
   "needsErrorInfo": false,
-  "originalBottomRow": 48,
-  "originalTopRow": 44,
+  "onClick": "{{navigateTo(\"Confirmation\", {}, 'SAME_WINDOW').then(() => {\n  removeValue('newPrice');removeValue('oldPrice'); \n\tremoveValue('tax');\n\tremoveValue('total');\n\tremoveValue('subtotal')\n});}}",
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
   "parentColumnSpace": 6.53125,
   "parentId": "uslq547vs6",
   "parentRowSpace": 10,
@@ -30,9 +40,9 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
+  "rightColumn": 61,
   "text": "Pay",
-  "topRow": 44,
+  "topRow": 31,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "3rto0bhjrs",

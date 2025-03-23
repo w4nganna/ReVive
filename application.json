@@ -46,10 +46,6 @@
       "isDefault": false
     },
     {
-      "id": "Distance",
-      "isDefault": false
-    },
-    {
       "id": "Browse",
       "isDefault": false
     },
@@ -87,6 +83,10 @@
     },
     {
       "id": "Payment",
+      "isDefault": false
+    },
+    {
+      "id": "Confirmation",
       "isDefault": false
     }
   ],
