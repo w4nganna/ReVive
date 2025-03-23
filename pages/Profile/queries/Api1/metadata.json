@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67df05232045dc4705026c5a_493236d3-db66-418c-8ffc-68286448abb3",
-  "id": "Favourites_getShopperFavs",
+  "gitSyncId": "67df05232045dc4705026c5a_50b58a09-0073-4c59-8093-11655025d4ac",
+  "id": "Profile_Api1",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/shoppers/{{appsmith.store.loggedShopper}}/favs",
+      "path": "/",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -32,14 +32,10 @@
       "name": "ReViveDB",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "path"
-      }
-    ],
-    "executeOnLoad": true,
-    "name": "getShopperFavs",
-    "pageId": "Favourites",
+    "dynamicBindingPathList": [],
+    "executeOnLoad": false,
+    "name": "Api1",
+    "pageId": "Profile",
     "userSetOnLoad": false
   }
 }

@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "67de35c33b9027211c38a7e8_e05e63b2-a46a-4135-9852-37fffea4db18",
+  "gitSyncId": "67df05232045dc4705026c5a_803fcd5d-dc75-4b21-a799-58a9edb6fb9b",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 690,
+          "bottomRow": 570,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -20,13 +20,13 @@
           "snapRows": 62,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "version": 92,
+          "version": 91,
           "widgetId": "0",
           "widgetName": "MainContainer"
         }
       }
     ],
-    "name": "Distance",
-    "slug": "distance"
+    "name": "Confirmation",
+    "slug": "confirmation"
   }
 }

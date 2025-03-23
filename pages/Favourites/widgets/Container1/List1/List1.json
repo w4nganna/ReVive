@@ -94,7 +94,7 @@
   "itemSpacing": 8,
   "key": "6m9m386bp2",
   "leftColumn": 0,
-  "listData": "{{get}}",
+  "listData": "{{getShopperFavs.data}}",
   "mainCanvasId": "zj7381cfpk",
   "mainContainerId": "3nlzjujliy",
   "minWidth": 450,
