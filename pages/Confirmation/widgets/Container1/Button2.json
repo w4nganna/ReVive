@@ -34,6 +34,8 @@
   "mobileTopRow": 35,
   "needsErrorInfo": false,
   "onClick": "{{showAlert('Added to Wallet', 'success');}}",
+  "originalBottomRow": 42,
+  "originalTopRow": 35,
   "parentColumnSpace": 6.42431640625,
   "parentId": "8yn9rzzpi0",
   "parentRowSpace": 10,

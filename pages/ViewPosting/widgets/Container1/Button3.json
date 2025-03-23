@@ -33,7 +33,7 @@
   "mobileRightColumn": 15,
   "mobileTopRow": 68,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Payment', {}, 'SAME_WINDOW').then(() => {\n  storeValue('newPrice', getProductById.data.newPrice);\n  storeValue('oldPrice', getProductById.data.oldPrice);\n  storeValue('tax', parseFloat((getProductById.data.newPrice*0.13).toFixed(2)));\n\tstoreValue('subtotal', appsmith.store.newPrice);\n\tstoreValue('total', appsmith.store.newPrice);\n})}}\n",
+  "onClick": "{{navigateTo('Payment', {}, 'SAME_WINDOW').then(() => {\n  storeValue('newPrice', getProductById.data.newPrice);\n  storeValue('oldPrice', getProductById.data.oldPrice);\n  storeValue('tax', parseFloat((getProductById.data.newPrice*0.13).toFixed(2)));\n\tstoreValue('subtotal', appsmith.store.newPrice);\n\tstoreValue('total', appsmith.store.newPrice + appsmith.store.tax);\n\tstoreValue('id', appsmith.URL.queryParams.item)\n})}}\n",
   "originalBottomRow": 41,
   "originalTopRow": 37,
   "parentColumnSpace": 6.53125,

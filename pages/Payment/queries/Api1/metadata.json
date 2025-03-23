@@ -11,17 +11,17 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n            \"shopper\" : {{appsmith.store.skinId}},\n            \"product\": {{MultiSelect1.selectedOptionValues}},\n\t\t\t\t\t\t\"quantity\" : {{appsmith.store.skinId}},\n            \"purchaseDate\" : {{appsmith.store.budget}},\n            \"moneySaved\" : {{appsmith.store.loggedUser}},\n\t\t\t\t\t\t\"co2Saved\": {{appsmith.store.concernIds}}\n        }",
+      "body": "{\n  \"shopperId\": {{ appsmith.store.loggedUser }},\n  \"productId\": {{ appsmith.store.id }},\n  \"quantity\": {{ Input1.text }}\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
       },
       "headers": [],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/purchases",
+      "path": "/purchases/{{}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -40,6 +40,9 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "path"
       }
     ],
     "executeOnLoad": false,

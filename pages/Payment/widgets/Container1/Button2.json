@@ -7,11 +7,7 @@
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -29,7 +25,7 @@
   "mobileRightColumn": 26,
   "mobileTopRow": 44,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo(\"Confirmation\", {}, 'SAME_WINDOW').then(() => {\n  removeValue('newPrice');removeValue('oldPrice'); \n\tremoveValue('tax');\n\tremoveValue('total');\n\tremoveValue('subtotal')\n});}}",
+  "onClick": "{{navigateTo(\"Confirmation\", {}, 'SAME_WINDOW').then(() => {\n  removeValue('newPrice');\n  removeValue('oldPrice');\n  removeValue('tax');\n  removeValue('total');\n  removeValue('subtotal');\n});\nApi1.run()}}",
   "originalBottomRow": 35,
   "originalTopRow": 31,
   "parentColumnSpace": 6.53125,
