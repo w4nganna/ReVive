@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 28,
   "shouldTruncate": false,
-  "text": "Hello {{Appsmith.store.name}}",
+  "text": "Hello {{appsmith.store.loggedShopper}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,

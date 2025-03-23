@@ -55,7 +55,7 @@
       "isVisible": true,
       "label": "Log Out",
       "menuItems": {},
-      "onClick": "{{removeValue('loggedRetailer').then(() => {\n  navigateTo('Start', {}, 'SAME_WINDOW');\n});}}",
+      "onClick": "{{navigateTo('Start', {}, 'SAME_WINDOW');\nclearStore()}}",
       "placement": "CENTER",
       "widgetId": ""
     }
