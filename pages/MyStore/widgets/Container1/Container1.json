@@ -65,7 +65,7 @@
       "key": "borderColor"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
@@ -73,7 +73,7 @@
   "isVisible": true,
   "key": "3q2jd2ooo1",
   "leftColumn": 0,
-  "maxDynamicHeight": 9000,
+  "maxDynamicHeight": 57,
   "minDynamicHeight": 10,
   "minWidth": 450,
   "mobileBottomRow": 10,

@@ -88,6 +88,10 @@
     {
       "id": "Confirmation",
       "isDefault": false
+    },
+    {
+      "id": "EditProduct",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

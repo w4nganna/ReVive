@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "67de3a61a60afa01b2997885_03afcb56-5278-4eec-83a5-2d5ec85f1e8a",
+  "gitSyncId": "67df05232045dc4705026c5a_c819fd13-3ef7-4a10-b7e4-f8b3c56f5232",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 480,
+          "bottomRow": 520,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "ViewPosting",
-    "slug": "viewposting"
+    "name": "EditProduct",
+    "slug": "editproduct"
   }
 }
